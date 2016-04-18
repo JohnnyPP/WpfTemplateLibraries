@@ -16,21 +16,19 @@ namespace WpfDemo
 
         public ViewModel()
         {
-            Model = new Model();
+            Model = new WpfModel.Model();
             ButtonClick = new ActionCommand(ButtonClickCommand);
         }
 
         #endregion
 
-
         #region Properties
 
         // To access Model all namespaces must be changed to WpfDemo
-        public Model Model { get; set; }
+        public WpfModel.Model Model { get; set; }
         public ActionCommand ButtonClick { get; set; }
 
         #endregion
-
 
         #region Methods
 

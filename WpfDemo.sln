@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfModel", "WpfModel\WpfMod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfViewModel", "WpfViewModel\WpfViewModel.csproj", "{FBEE9130-67BD-46B1-A8F9-3A6F145214EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfView", "WpfView\WpfView.csproj", "{F02A0601-9513-4B6D-8552-18F480B50872}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FBEE9130-67BD-46B1-A8F9-3A6F145214EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBEE9130-67BD-46B1-A8F9-3A6F145214EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBEE9130-67BD-46B1-A8F9-3A6F145214EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02A0601-9513-4B6D-8552-18F480B50872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02A0601-9513-4B6D-8552-18F480B50872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02A0601-9513-4B6D-8552-18F480B50872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02A0601-9513-4B6D-8552-18F480B50872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

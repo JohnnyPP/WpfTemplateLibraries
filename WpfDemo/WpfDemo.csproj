@@ -104,6 +104,10 @@
       <Project>{fbee9130-67bd-46b1-a8f9-3a6f145214ec}</Project>
       <Name>WpfViewModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WpfView\WpfView.csproj">
+      <Project>{9d7169e8-5b29-4ad6-8e3c-2536afb29f4f}</Project>
+      <Name>WpfView</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,9 +18,9 @@ namespace WpfView
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class Ui : Window
     {
-        public UserControl1()
+        public Ui()
         {
             InitializeComponent();
         }

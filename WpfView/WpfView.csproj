@@ -81,6 +81,12 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WpfViewModel\WpfViewModel.csproj">
+      <Project>{fbee9130-67bd-46b1-a8f9-3a6f145214ec}</Project>
+      <Name>WpfViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

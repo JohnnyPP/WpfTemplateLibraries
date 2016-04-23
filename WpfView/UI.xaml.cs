@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace WpfView
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for Ui.xaml
     /// </summary>
     public partial class Ui : Window
     {
+        WpfViewModel.ViewModel vm;
+
         public Ui()
         {
             InitializeComponent();
+
+            vm = new WpfViewModel.ViewModel();
+            DataContext = vm;
         }
     }
 }
